@@ -20,8 +20,9 @@ Run check.sh using Git Bash:
 chmod +x check.sh
 ./check.sh
 
+
+
 ## Result
 
 All checks pass = Green CI badge
 Any check fails = Red CI badge
-"@ | Out-File -FilePath README.md -Encoding utf8
