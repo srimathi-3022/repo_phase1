@@ -1,9 +1,9 @@
-@"
+
 # Repo Health Checker
 
 ![CI](https://github.com/srimathi-3022/repo_phase1/actions/workflows/check.yml/badge.svg)
 
-This project automatically validates repository health on every push using GitHub Actions.
+This project is about validates repository health on every push using GitHub Actions automatically without Manual setup.
 
 ## What It Checks
 
@@ -31,4 +31,12 @@ check.sh is the main validation script
 .github/workflows/check.yml is the GitHub Actions workflow
 README.md is this documentation file
 .gitignore prevents committing unwanted files
-"@ | Out-File -FilePath README.md -Encoding utf8 -NoNewline
+
+## File Structure 
+   repo_phase1/
+    ├── check.sh
+    ├── .github/
+    │     └── workflows/
+    │           └── check.yml
+    ├── README.md
+    └── .gitignore
