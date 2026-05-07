@@ -16,13 +16,19 @@ This project automatically validates repository health on every push using GitHu
 
 ## How to Run Locally
 
-Run check.sh using Git Bash:
+Open Git Bash and run these commands:
 chmod +x check.sh
 ./check.sh
-
-
 
 ## Result
 
 All checks pass = Green CI badge
 Any check fails = Red CI badge
+
+## Project Structure
+
+check.sh is the main validation script
+.github/workflows/check.yml is the GitHub Actions workflow
+README.md is this documentation file
+.gitignore prevents committing unwanted files
+"@ | Out-File -FilePath README.md -Encoding utf8 -NoNewline
