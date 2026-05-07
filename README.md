@@ -40,3 +40,5 @@ README.md is this documentation file
     │           └── check.yml
     ├── README.md
     └── .gitignore
+## CI Pipeline
+This project uses GitHub Actions to run automated health checks on every push.
